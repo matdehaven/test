@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Home"
+  sidebar:
+    style: "docked"
+    contents: auto
   navbar:
     left:
       - href: about.qmd
@@ -15,7 +18,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
 
